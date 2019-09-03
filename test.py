@@ -3,6 +3,7 @@ import bs4
 import re
 from bs4 import BeautifulSoup
 #测试
+#测试1
 header={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36'}
 # reponse = requests.get('http://xueshu.baidu.com/s?wd=paperuri%3A%28aaaae129524ff45071f7ee0970d47e00%29&filter=sc_long_sign&sc_ks_para=q%3D%E5%93%A5%E5%BE%B7%E5%B0%94%E3%80%81%E8%89%BE%E8%88%8D%E5%B0%94%E3%80%81%E5%B7%B4%E8%B5%AB%20%3A%20%E9%9B%86%E5%BC%82%E7%92%A7%E4%B9%8B%E5%A4%A7%E6%88%90&sc_us=6551179971565419067&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8&sc_as_para=sc_lib%3A')
 # soup = BeautifulSoup(reponse.text,'html.parser')
